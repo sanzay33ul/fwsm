@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <!-- Heading Part -->
+    <header id="home">
+        <div class="logo">
+            <img src="logo.png" alt="logo">
+        </div>
+        <div class="head">
+            <h1 class="heading">Farwest School of Medicine</h1>
+            <br>
+            <h3 class="subheading">Mahendranagar, Kanchanpur</h3>
+        </div>
+
+    </header>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="navbar" id="nav-direct">
+
+            <ul class="sidebar">
+                <li class="menuOpen" onclick="hideSidebar()"><a href="#nav-direct"><svg
+                            xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px"
+                            fill="#00000">
+                            <path
+                                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                        </svg></a></li>
+                <li class="#home" onclick="hideSidebar()"><a href="index.html">Home</a></li>
+                <li onclick="hideSidebar()"><a href="index.html#examination">Examination</a></li>
+                <li onclick="hideSidebar()"><a href="index.html#programs">programs</a></li>
+                <li onclick="hideSidebar()"><a href="teachers.html">teachers</a></li>
+                <li onclick="hideSidebar()"><a href="index.html#admission">About Admission</a></li>
+                <li onclick="hideSidebar()"><a href="index.html#contact">Contact</a></li>
+                <li onclick="hideSidebar()"><a href="about.html">About Us</a></li>
+                <li onclick="hideSidebar()"><a href="#">Gallery</a></li>
+                <li onclick="hideSidebar()" class="icon"><a href="https://www.facebook.com/farwestschoolofmedicine"
+                        class="social-icon" target="_blank"><img src="fbicon.webp" alt="fbicon"></a></li>
+
+            </ul>
+
+            <ul class="navbar">
+                <li class="#home hideOnmobile"><a href="index.html">Home</a></li>
+                <li class="hideOnmobile"><a href="index.html#examination">Examination</a></li>
+                <li class="hideOnmobile"><a href="index.html#programs">programs</a></li>
+                <li class="hideOnmobile"><a href="teachers.html">teachers</a></li>
+                <li class="hideOnmobile"><a href="index.html#admission">About Admission</a></li>
+                <li class="hideOnmobile"><a href="index.html#contact">Contact</a></li>
+                <li class="hideOnmobile"><a href="about.html">About Us</a></li>
+                <li class="hideOnmobile"><a href="gallery.html">Gallery</a></li>
+                <li class="icon hideOnmobile"><a href="https://www.facebook.com/farwestschoolofmedicine"
+                        class="social-icon" target="_blank"><img src="fbicon.webp" alt="fbicon"></a></li>
+                <li class="menuOpen" onclick="showSidebar()"><a href="#nav-direct"><svg
+                            xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px"
+                            fill="#00000">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                        </svg></a></li>
+
+            </ul>
+
+
+        </div>
+        </a>
+    </nav>
+<main>
+    <div class="gallery-head">
+        <h1>
+            Farwest School of Medicine Gallery
+        </h1>
+    </div>
+    <div class="gallery-grid">
+        <div class="gallery gallery1">
+            <img src="Gallery1.webp" alt="photo">
+        </div>
+        <div class="gallery gallery2">
+            <img src="Gallery2.webp" alt="photo">
+        </div>
+        <div class="gallery gallery3">
+            <img src="Gallery3.webp" alt="photo">
+        </div>
+        <div class="gallery gallery1">
+            <img src="gallery4.webp" alt="photo">
+        </div>
+        <div class="gallery gallery2">
+            <img src="Gallery5.webp" alt="photo">
+        </div>
+        <div class="gallery gallery3">
+            <img src="Gallery6.webp" alt="photo">
+        </div>
+        <div class="gallery gallery1">
+            <img src="gallery7.webp" alt="photo">
+        </div>
+        <div class="gallery gallery2">
+            <img src="gallery8.webp" alt="photo">
+        </div>
+        <div class="gallery gallery3">
+            <img src="gallery9.webp" alt="photo">
+        </div>
+    </div>
+</main>
+   
+<!-- footer -->
+        <footer>
+            <div class="footer-content">
+                <p><a href="https://www.facebook.com/farwestschoolofmedicine" target="_blank"><i class="fab fa-facebook-f"></a></i><span>Follow us on Facebook</span><b>Contact No:</b> +97799-525113</p>
+               
+            </div>
+            <p id="lastfooter">
+                &copy; 2024 fwsm.edu.np All rights reserved.
+            </p>
+        </footer>
+        <script src="script.js">
+           
+        </script>
+</body>
+</html>

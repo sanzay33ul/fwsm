@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farwest School of Medicine</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+    <!-- Heading Part -->
+    <header id="home">
+        <div class="logo"> <a href="index.html">
+            <img src="logo.png" alt="logo"></a>
+        </div>
+        <div class="head">
+            <h1 class="heading">Farwest School of Medicine</h1>
+            <br>
+            <h3 class="subheading">Mahendranagar, Kanchanpur</h3>
+        </div>
+    
+    </header>
+
+
+
+    <!-- Navigation Part -->
+    <nav id="navbar">
+        
+        <div class="navbar" id="nav-direct">
+            
+                <ul class="sidebar" id="nav-direct">
+                    <li class="menuOpen" onclick="hideSidebar()"><a href="#nav-direct"><svg xmlns="http://www.w3.org/2000/svg" height="26px"
+                                viewBox="0 -960 960 960" width="26px" fill="#00000">
+                                <path
+                                    d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                            </svg></a></li>
+                    <li class="#home" onclick="hideSidebar()"><a href="#home">Home</a></li>
+                    <li onclick="hideSidebar()"><a href="#examination">Examination</a></li>
+                    <li onclick="hideSidebar()"><a href="#programs">programs</a></li>
+                    <li onclick="hideSidebar()"><a href="teachers.html">teachers</a></li>
+                    <li onclick="hideSidebar()"><a href="#admission">About Admission</a></li>
+                    <li onclick="hideSidebar()"><a href="#contact">Contact</a></li>
+                    <li onclick="hideSidebar()"><a href="about.html">About Us</a></li>
+                    <li onclick="hideSidebar()"><a href="gallery.html">Gallery</a></li>
+                    <li onclick="hideSidebar()" class="icon"><a href="https://www.facebook.com/farwestschoolofmedicine"
+                            class="social-icon" target="_blank"><img src="fbicon.webp" alt="fbicon"></a></li>
+            
+                </ul>
+            
+            <ul class="navbar">
+                <li class="#home hideOnmobile"><a href="#home">Home</a></li>
+                <li class="hideOnmobile"><a href="#examination">Examination</a></li>
+                <li class="hideOnmobile"><a href="#programs">programs</a></li>
+                <li class="hideOnmobile"><a href="teachers.html">teachers</a></li>
+                <li class="hideOnmobile"><a href="#admission">About Admission</a></li>
+                <li class="hideOnmobile"><a href="#contact">Contact</a></li>
+                <li class="hideOnmobile"><a href="about.html">About Us</a></li>
+                <li class="hideOnmobile"><a href="gallery.html">Gallery</a></li>
+                <li class="icon hideOnmobile"><a href="https://www.facebook.com/farwestschoolofmedicine" class="social-icon" target="_blank"><img src="fbicon.webp"
+                            alt="fbicon"></a></li>
+                <li class="menuOpen" onclick="showSidebar()"><a href="#nav-direct"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#00000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            
+            </ul>
+
+
+        </div>
+    </a>
+    </nav>
+
+
+
+    <!------------------------------ Main Section --------------------------->
+    <main>
+        <!-- Website Home Part -->
+        <div class="background">
+            <div class="intro-head">
+                <h1 class="intro active">pride in excellence</h1>
+                <div class="intro-info">
+                    <p>
+                        Farwest School of Medicine (FWSM) established in august 2004 is affiliated to Council for Technical
+                        Education and Vocational Training (CTEVT) and approved by Health Professional Council of Nepal and
+                        Pharmacy Council to conduct proficiency certificate level in General Medicine (H.A.), Diploma in
+                        Pharmacy & certificate level in medical lab technology programme.
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <!-- College Programs Part -->
+        <div class="programs" id="programs">
+            <h1 class="programhead">Explore Our College's Programs</h1>
+            <div class="container">
+                <div class="cards grid">
+                    <div class="card">
+                        <div class="img-box card1">
+                            <img src="ha.webp" alt="General medicine Photo">
+                        </div>
+                        <div class="card-content ha-content">
+                            <h1 class="card-heading pro1">General Medicine</h1>
+                            <p class="card-text">PCL General Medicine is a three year programme of CTEVT which aims at preparing a health professional with all scientific knowledge, technical competencies and human understanding to work in various capacities from community level to the central level health care settings.</p>
+                            <button class="btn"><a href="ha.html">Explore More</a></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-box card2">
+                            <img src="pharmacy.webp" alt="pharmacy Photo">
+                        </div>
+                        <div class="card-content">
+                            <h1 class="card-heading pro2">Diploma in Pharmacy</h1>
+                            <p class="card-text">Diploma in Pharmacy is a three year programme of CTEVT which aims at preparing pharmacy assistance with all scientific knowledge, technical competencies and human understanding so as to discourage practice of quack which is badly affecting the health of people.</p>
+                            <button class="btn"><a href="pharmacy.html">Explore More</a></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-box card3">
+                            <img src="lab.webp" alt="Medical lab Photo">
+                        </div>
+                        <div class="card-content">
+                            <h1 class="card-heading pro3">Medical Lab Technology</h1>
+                            <p class="card-text">To prepare skilled "Laboratory Technician to upgrade quality of clinical laboratory to offer "job oriented and self employment course to provide students with a model educational system based upon scientific and technological excellence.</p>
+                            <button class="btn"><a href="lab.html">Explore More</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+        <hr>
+
+         <!-- About Admission -->
+
+            <h1 class="admission-head" id="admission">About Admission</h1>
+            <div class="admission-container">
+                    <div class="admission-card">
+                        <div class="admission-content-box"><h3 class="head-admission1">Eligibility, Criteria for Admission</h3>
+                            <ul class="admission-text head-exam2">
+                                <li class="line1">The minimum education qualification is S.L.C./SEE pass or equivalent with Science, Math and English as major Subjects.</li>
+                                <li class="line2">Candidates from 16 to 25 years of age with good moral character and sound health.</li>
+                                <li class="line3">A working knowledge of written and spoken English.</li>
+                                <li class="line4">The Completed application from along with photocopies of the following.</li>
+                                <li class="line5">S.L.C/SEE or equivalent mark sheet and certificate.</li>
+                                <li class="line6">Character Certificate</li>
+                                <li class="line7">Nepali citizenship certificate or Birth certificate</li>
+                                <li class="line8">CMA/AHW pass certificate and experience certificate in th case of in service trainee</li>
+                                <li class="line9">Medical certificate</li>
+                                <li class="line10">An application, in the applicants own handwriting with a list of enclosures.</li>
+                                <li class="line11">N.B. Original certificate must be submitted at the time of admission.</li>
+                                <li class="line12">MRP Size Photographs 2 copy ( 35mmx45mm)</li>
+                                
+                            </ul>
+                        </div>
+
+
+                </div>
+            </div>
+        <hr>
+    
+        <!-- Examination Part -->
+    
+        <section class="examination" id="examination">
+            <h1 class="exam-head">Examination System and Certificates</h1>
+            <div class="exam-container">
+                <div class="cards exam-grid">
+                    <div class="exam-card">
+                        <div class="exam-img-box">
+                            <img src="Examination.webp" alt="Examination">
+                        </div>
+                    </div>
+                    <div class="exam-card">
+                        <div class="exam-content-box"><h3 class="head-exam1">Examination System and Certificates</h3>
+                        <p class="exam-text head-exam2">There will be the annual examination held by the examination control board CTEVT, which contain written test practical exam and viva at the end of each year. There will be quarterly exams in a year. Periodic test will be conducted twice a month in each subject.
+                            No candidates will be allowed to appear in th annual examination if his/her attendance is less than 90%. The Marks of internal examination, attendance, general conduct of students and their performance in clinical field will be taken into consideration for internal assessment.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+<hr>
+        <!-- Contact Section -->
+    <section class="conntact-us" id="contact">
+        <h2 class="contact-title">Contact Us</h2>
+        <div class="contact-container">
+            <div class="contact-grid">
+                <div class="cantact-card">
+                    <h3 class="sent_message">Google Map</h3>
+                    
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3490.5326118091016!2d80.18290357430836!3d28.971584368605388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a1a95344552d6b%3A0x6a27ce313f7c9152!2sFarwest%20School%20of%20Medicine!5e0!3m2!1sen!2snp!4v1716365075957!5m2!1sen!2snp" width="540" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+    
+                    
+                </div>
+                <div class="cantact-card">
+                    <div class="contact-box">
+
+                        <p class="con1"><a href="tel:+977099525113" target="_blank"><img src="call.png" alt="callicon" id="contact-icon"> 099525113</a></p>
+                        <p class="con2"><a href="https://maps.app.goo.gl/YG7LWLC4LAFnxUN37" target="_blank"><img src="location.png" alt="locationicon" id="contact-icon">Mahendranagar, Kanchanpur</a></p>
+                        <p class="con3"><a href="https://www.facebook.com/farwestschoolofmedicine" target="_blank"><img src="fbicon.webp" alt="locationicon" id="contact-icon">farwestschoolofmedicine</a></p>
+                    </div>
+
+                </div>
+            </div>
+        
+        </div>
+        
+    </section>
+    
+    
+    </main>
+
+
+
+
+    <footer>
+        <div class="footer-content">
+            <p><a href="https://www.facebook.com/farwestschoolofmedicine" target="_blank"><i class="fab fa-facebook-f"></a></i><span>Follow us on Facebook</span><b>Contact No:</b> +97799-525113</p>
+           
+        </div>
+        <p id="lastfooter">
+            &copy; 2024 fwsm.edu.np All rights reserved.
+        </p>
+    </footer>
+    <script src="script.js">
+       
+    </script>
+</body>
+
+</html>

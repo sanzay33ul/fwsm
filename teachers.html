@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Teachers</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+     <!-- Heading Part -->
+     <header id="home">
+        <div class="logo">
+            <img src="logo.png" alt="logo">
+        </div>
+        <div class="head">
+            <h1 class="heading">Farwest School of Medicine</h1>
+            <br>
+            <h3 class="subheading">Mahendranagar, Kanchanpur</h3>
+        </div>
+
+    </header>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="navbar" id="nav-direct">
+
+            <ul class="sidebar">
+                <li class="menuOpen" onclick="hideSidebar()"><a href="#nav-direct"><svg
+                            xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px"
+                            fill="#00000">
+                            <path
+                                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                        </svg></a></li>
+                <li class="#home" onclick="hideSidebar()"><a href="index.html">Home</a></li>
+                <li onclick="hideSidebar()"><a href="index.html#examination">Examination</a></li>
+                <li onclick="hideSidebar()"><a href="index.html#programs">programs</a></li>
+                <li onclick="hideSidebar()"><a href="teachers.html">teachers</a></li>
+                <li onclick="hideSidebar()"><a href="index.html#admission">About Admission</a></li>
+                <li onclick="hideSidebar()"><a href="index.html#contact">Contact</a></li>
+                <li onclick="hideSidebar()"><a href="about.html">About Us</a></li>
+                <li onclick="hideSidebar()"><a href="gallery.html">Gallery</a></li>
+                <li onclick="hideSidebar()" class="icon"><a href="https://www.facebook.com/farwestschoolofmedicine"
+                        class="social-icon" target="_blank"><img src="fbicon.webp" alt="fbicon"></a></li>
+
+            </ul>
+
+            <ul class="navbar">
+                <li class="#home hideOnmobile"><a href="index.html">Home</a></li>
+                <li class="hideOnmobile"><a href="index.html#examination">Examination</a></li>
+                <li class="hideOnmobile"><a href="index.html#programs">programs</a></li>
+                <li class="hideOnmobile"><a href="teachers.html">teachers</a></li>
+                <li class="hideOnmobile"><a href="index.html#admission">About Admission</a></li>
+                <li class="hideOnmobile"><a href="index.html#contact">Contact</a></li>
+                <li class="hideOnmobile"><a href="about.html">About Us</a></li>
+                <li class="hideOnmobile"><a href="gallery.html">Gallery</a></li>
+                <li class="icon hideOnmobile"><a href="https://www.facebook.com/farwestschoolofmedicine"
+                        class="social-icon" target="_blank"><img src="fbicon.webp" alt="fbicon"></a></li>
+                <li class="menuOpen" onclick="showSidebar()"><a href="#nav-direct"><svg
+                            xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px"
+                            fill="#00000">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                        </svg></a></li>
+
+            </ul>
+
+
+        </div>
+        </a>
+    </nav>
+<main>
+    <!-- College Programs Part -->
+    <div class="programs" id="programs">
+        <h1 class="programhead">Meet Our Teachers</h1>
+        <div class="container">
+            <div class="cards grid">
+                <div class="card">
+                    <div class="img-box card1">
+                        <img src="shyamsundarjha.webp" alt="Shyam Sundar Jha Photo">
+                    </div>
+                    <div class="card-content">
+                        <h1 class="card-heading pro1">Shyam Sundar Jha</h1>
+                        <p class="card-text">Position: Campus Chief
+                            <br>
+                            Shyam Sundar Jha, Campus Chief of Farwest School of Medicine, holds a Bachelor in Medical Laboratory Technology (BMLT) degree.
+                        </p>
+                        <p class="card-text"> </p>
+                        <button class="btn"><a href="#shyam">Explore More</a></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-box card2">
+                        <img src="prakashmahara.webp" alt="Prakash Mahara Photo">
+                    </div>
+                    <div class="card-content">
+                        <h1 class="card-heading pro2">Prakash Mahara</h1>
+                        <p class="card-text">Position: Pharmacy Coordinator
+                            <br>
+                            Prakash Mahara, Coordinator of Farwest School of Medicine, holds a Bachelor in Pharmacy (B.Pharm) degree.
+                        </p>
+                        <button class="btn"><a href="#prakash">Explore More</a></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-box card3">
+                        <img src="dharmanandjoshi.webp" alt="Dharmanand Joshi Photo">
+                    </div>
+                    <div class="card-content">
+                        <h1 class="card-heading pro3">Dharmanand Joshi</h1>
+                        <p class="card-text">Position: H.A. Coordinator
+                            <br>
+                            Dharmanand, Coordinator of Farwest School of Medicine, holds a Bachelor in Public Health (BPH) degree.
+                        </p>
+                        <button class="btn"><a href="#dharmanand">Explore More</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <hr>
+    
+        <!-- Deatail about Teachers Part -->
+        <!-- Shyam Sundarjha -->
+    
+        <section class="examination" id="examination">
+            <h1 class="exam-head" id="shyam">About Shyam Sundar Jha</h1>
+            <div class="exam-container">
+                <div class="cards exam-grid">
+                    <div class="exam-card">
+                        <div class="exam-img-box">
+                            <img src="shyamsundarjha.webp" alt="Shyam Sundar Jha">
+                        </div>
+                    </div>
+                    <div class="exam-card">
+                        <div class="exam-content-box"><h3 class="head-exam1">Mr.Shyam Sundar Jha</h3>
+                        <p class="exam-text head-exam2">Shyam Sundar Jha, Campus Chief of Farwest School of Medicine, holds a Bachelor of Medical Laboratory Technology (BMLT) degree. With over 15 years of experience in educational administration, he is dedicated to fostering academic excellence and an inclusive campus culture. Known for his collaborative leadership, Mr. Jha has significantly enhanced student services and innovative programs at Farwest School of Medicine.
+
+                        </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- About Prakash Mahara -->
+        <section class="examination" id="examination">
+            <h1 class="exam-head" id="prakash">About Prakash Mahara</h1>
+            <div class="exam-container">
+                <div class="cards exam-grid">
+                    
+                    <div class="exam-card">
+                        <div class="exam-content-box"><h3 class="head-exam1">Mr.Prakash Mahara</h3>
+                        <p class="exam-text head-exam2">Prakash Mahara is the Pharmacy Coordinator at Farwest School of Medicine, holding a Bachelor of Pharmacy (B.Pharm) degree. With extensive experience in pharmaceutical education, he is committed to high academic standards and innovative teaching. Mr. Mahara works closely with faculty and students to enhance the curriculum and prepare graduates for successful careers in pharmacy. His dedication to student success and professional development is highly valued at Farwest School of Medicine.</p>
+                        </div>
+                    </div>
+                    <div class="exam-card">
+                        <div class="exam-img-box">
+                            <img src="prakashmahara.webp" alt="Prakash Mahara">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+        </section>
+        <hr>
+        <!-- about Dharmanand joshi -->
+        
+        <section class="examination" id="examination">
+            <h1 class="exam-head" id="dharmanand">About Dharmanand Joshi</h1>
+            <div class="exam-container">
+                <div class="cards exam-grid">
+                    <div class="exam-card">
+                        <div class="exam-img-box">
+                            <img src="dharmanandjoshi.webp" alt="Dharmanand Joshi">
+                        </div>
+                    </div>
+                    <div class="exam-card">
+                        <div class="exam-content-box"><h3 class="head-exam1">Mr.Dharmand Joshi</h3>
+                        <p class="exam-text head-exam2">Dharmanand Joshi is the Coordinator of General Medicine at Farwest School of Medicine, holding a Bachelor in Public Health (BPH) degree. With a strong background in public health and medical education, he is dedicated to maintaining high academic standards and innovative teaching. Mr. Joshi collaborates closely with faculty and students to enhance the curriculum and prepare graduates for successful careers in general medicine. His commitment to student success and professional development is highly valued at Farwest School of Medicine.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+        </section>
+</main>
+
+
+    <!-- foooter -->
+    <footer>
+        <div class="footer-content">
+            <p class="fot1"><a href="https://www.facebook.com/farwestschoolofmedicine" target="_blank"><i
+                        class="fab fa-facebook-f"></a></i><span>Follow us on Facebook</span><b>Contact No:</b>
+                +97799-525113</p>
+
+        </div>
+        <p id="lastfooter" class="fot2">
+            &copy; 2024 fwsm.edu.np All rights reserved.
+        </p>
+    </footer>
+    <script src="script.js">
+
+    </script>
+</body>
+</html>

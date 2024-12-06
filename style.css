@@ -476,7 +476,7 @@ main .programhead{
 }
 @media (max-width:350px){
     .cmlt-content{
-        height: 24%;
+        height: 18%;
     }
     .ha-content{
         height: 18%;
@@ -505,7 +505,7 @@ main .programhead{
    
 
 }
-@media (max-width:221px){
+@media (max-width:246px){
     .cmlt-content{
         height: 26%;
     }

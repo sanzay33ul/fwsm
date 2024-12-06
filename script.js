@@ -10,8 +10,12 @@
   sidebar.style.display = 'none'
  }
 
-
- 
+//on touch devices
+document.querySelectorAll('.card-content').forEach(card => {
+  card.addEventListener('click', () => {
+      card.classList.toggle('active');
+  });
+});
  
  // sticky navgation
  window.onscroll = function() {myFunction()};

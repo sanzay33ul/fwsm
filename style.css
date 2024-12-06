@@ -461,8 +461,13 @@ main .programhead{
     .card-content{
         height: 20%;
     }
-    .card-content:hover{
+    /* .card-content:hover{
         height: 75%;
+    } */
+    .card-content:hover {
+        height: 75%;
+        -webkit-transition: height 0.7s;
+        transition: height 0.7s;
     }
 }
 @media (max-width:350px){

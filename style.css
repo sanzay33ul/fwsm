@@ -472,7 +472,7 @@ main .programhead{
 }
 @media (max-width:350px){
     .card-content{
-        height: 26%;
+        height: 20%;
     }
     .ha-content{
         height: 18%;

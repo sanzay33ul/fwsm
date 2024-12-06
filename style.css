@@ -878,11 +878,7 @@ iframe{
     }
 }
 
-@media (max-width:250px) {
-    .contact-box p a{
-        font-size: 9px;
-    }
-}
+
 
 
 /* programs */

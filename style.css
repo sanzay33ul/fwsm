@@ -472,7 +472,7 @@ main .programhead{
 }
 @media (max-width:350px){
     .card-content{
-        height: 20%;
+        height: 26%;
     }
     .ha-content{
         height: 18%;
@@ -481,13 +481,13 @@ main .programhead{
         font-size:1rem;
     }
     .card-content:hover{
-        height: 87%;
+        height: 90%;
     }
     
 }
 @media (max-width:300px){
     .card-content{
-        height: 25%;
+        height: 26%;
     }
     .ha-content{
         height: 18%;

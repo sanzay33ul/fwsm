@@ -860,7 +860,7 @@ iframe{
 }
 @media (max-width:450px) {
     .contact-box p a{
-        font-size: 18px;
+        font-size: 13px;
     }
     .form button{
         font-size: 14px;

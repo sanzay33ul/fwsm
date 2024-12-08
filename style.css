@@ -1018,6 +1018,7 @@ iframe{
 /* Gallery */
 .gallery{
     width: 100%;
+    z-index: -100;
 }
 .gallery-head{
     width: 100%;

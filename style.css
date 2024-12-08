@@ -1054,9 +1054,9 @@ iframe{
     cursor: pointer;
     transition: 0.2s;
     position: relative;
-    z-index: -1000;
+    
     /* transition: transform 0.3s ease, opacity 0.3s ease; */
-  
+    z-index: -1000;
 }
 .gallery img{
     display: block;

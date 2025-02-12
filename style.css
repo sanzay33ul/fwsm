@@ -789,6 +789,17 @@ main .programhead{
     padding: 11px;
     border-radius: 2rem;
 }
+.con1 a:hover{
+    color: #2fd76f;
+}
+.con2 a:hover{
+    color: #2fd76f;
+}
+.con3 a:hover{
+    color: #2fd76f;
+}
+
+
 .sent_message{
     text-align: center;
     font-size: 20px;
@@ -797,51 +808,10 @@ main .programhead{
 
 
 }
-.form input, textarea{
-    background-color: #ffffff;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    font-size: 18px;
-    color: #000000;
-    outline-style: none;
-    border-radius: 10px;
-    border: none;
-    width: 100%;
-    margin-bottom: 2rem;
-    padding-bottom: 5px;
-    padding-left: 9px;
-    padding-top:6px;
-}
-.form textarea{
-    height: 20vh;
-}
-.form button{
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    font-size: 1.4rem;
-    border-style: line 1px;
-    background-color:#ffffff;
-    color: #000000;
-    cursor: pointer;
-    font-weight: 400;
-    padding: 6px 6px;
-    border-radius: 15px;
-    border-color: #ffffff;
-    border-style: none;
-}
-button:hover{
-    background-color: #08070753;
-    color: #ffffff;
-    font-weight: 400;
-    box-shadow: 0 0.5rem 1rem rgb(0,0,0,0.7);
 
-}
 
-form{
-    padding-top: 15px;
-}
+
+
 .contact-box p a{
     text-decoration: none;
     display: flex;
@@ -1089,6 +1059,45 @@ iframe{
 
     }
 }
+
+
+/* notice board */
+/* .notice-board {
+    width: 60%;
+    margin: auto;
+    background: #0c374d;
+    padding: 20px;
+    border-radius: 8px;
+    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(255,255,255,0.3);
+    box-shadow: 0 0.5rem 1rem rgb(0,0,0,0.7);
+}
+h2 {
+    text-align: center;
+    color: #ffffff;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+th, td {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    text-align: left;
+    color: #ffffff;
+    font-weight: 500;
+}
+th {
+    background-color: #0c374d;
+    color: #ffffff;
+    font-weight: 900;
+}
+.download {
+    text-decoration: none;
+    color: #4da6ff;
+} */
+
 
 
 

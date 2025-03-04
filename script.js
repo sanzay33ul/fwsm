@@ -1,14 +1,17 @@
+// Sidebar responsive with smooth transition
+function showSidebar() {
+  const sidebar = document.querySelector('.sidebar');
+  sidebar.style.transform = 'translateX(0)';
+  sidebar.style.opacity = '1';
+  sidebar.style.pointerEvents = 'auto'; // Enables interaction
+}
 
-
- //sidebar responsive
- function showSidebar(){
-  const sidebar = document.querySelector('.sidebar')
-  sidebar.style.display = 'flex'
- }
- function hideSidebar(){
-  const sidebar = document.querySelector('.sidebar')
-  sidebar.style.display = 'none'
- }
+function hideSidebar() {
+  const sidebar = document.querySelector('.sidebar');
+  sidebar.style.transform = 'translateX(-100%)';
+  sidebar.style.opacity = '0';
+  sidebar.style.pointerEvents = 'none'; // Disables interaction
+}
 
 //on touch devices
 document.querySelectorAll('.card-content').forEach(card => {

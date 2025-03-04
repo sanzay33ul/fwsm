@@ -126,6 +126,7 @@ nav {
     filter: invert(1); 
     display: none;
     
+    
 
 }
 
@@ -183,6 +184,9 @@ nav {
     .navbar{
         display: flex;
         justify-content: flex-end;
+    }
+    .sidebar li:nth-child(1){
+        align-self: flex-end;
     }
   
   
